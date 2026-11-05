@@ -1,0 +1,39 @@
+image: mcr.microsoft.com/playwright:v1.62.1-noble
+
+# Runs only when started from the GitLab UI or API. Project CI/CD variables
+# win over job variables, so a job that needs its own app URL sets
+# TARGET_URL and exports it as BASE_URL in its script.
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web" || $CI_PIPELINE_SOURCE == "api" || $CI_PIPELINE_SOURCE == "trigger"'
+
+stages:
+  - test
+
+.e2e:
+  stage: test
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules
+  before_script:
+    - npm ci
+  artifacts:
+    when: always
+    paths:
+      - playwright-report/
+      - recordings/
+    expire_in: 7 days
+
+# Timetable + Resources against the fix/timetable-resources Vercel preview.
+timetable-resources-e2e:
+  extends: .e2e
+  variables:
+    TARGET_URL: https://aivorah-frontend-qzc4t1p0c-aivorah24-9470s-projects.vercel.app
+    E2E_ONLY_ACCOUNTS: admin-a,teacher-a,teacher-b,parent-a,student-a
+    PW_WORKERS: '3'
+  script:
+    - export BASE_URL="$TARGET_URL"
+    - npx playwright test tests/shared --project=chromium --reporter=line,html

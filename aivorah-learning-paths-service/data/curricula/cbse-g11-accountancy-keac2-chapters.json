@@ -1,0 +1,40 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 11",
+ "subject": "Accountancy",
+ "code": "keac2",
+ "imageSubject": "Accountancy",
+ "seeded": true,
+ "chapters": [
+  {
+   "chapter": 8,
+   "pdfFile": "keac201.pdf",
+   "title": "Financial Statements - I",
+   "bookPath": "grade11/accountancy/keac201.pdf",
+   "pdfFiles": [
+    "keac201.pdf"
+   ],
+   "subtopics": [
+    {
+     "section": "8.1",
+     "title": "Stakeholders and their"
+    }
+   ]
+  },
+  {
+   "chapter": 9,
+   "pdfFile": "keac202.pdf",
+   "title": "Financial Statements - II",
+   "bookPath": "grade11/accountancy/keac202.pdf",
+   "pdfFiles": [
+    "keac202.pdf"
+   ],
+   "subtopics": [
+    {
+     "section": "9.1",
+     "title": "Need for Adjustments"
+    }
+   ]
+  }
+ ]
+}

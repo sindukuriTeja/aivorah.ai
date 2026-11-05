@@ -1,0 +1,100 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 2",
+ "subject": "English",
+ "code": "bemr1",
+ "imageSubject": "English",
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "bemr101.pdf",
+   "title": "Fun with Friends My Bicycle",
+   "kind": "Non-fiction",
+   "bookPath": "grade2/english/bemr101.pdf"
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "bemr102.pdf",
+   "title": "Welcome to My World It is Fun",
+   "kind": "Non-fiction",
+   "bookPath": "grade2/english/bemr102.pdf"
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "bemr103.pdf",
+   "title": "Going Places Come Back Soon",
+   "kind": "Non-fiction",
+   "bookPath": "grade2/english/bemr103.pdf"
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "bemr104.pdf",
+   "title": "Mridang",
+   "kind": "Non-fiction",
+   "bookPath": "grade2/english/bemr104.pdf"
+  },
+  {
+   "chapter": 5,
+   "pdfFile": "bemr105.pdf",
+   "title": "Take a Bus or Take a Train, Take a Boat",
+   "kind": "Non-fiction",
+   "bookPath": "grade2/english/bemr105.pdf"
+  },
+  {
+   "chapter": 6,
+   "pdfFile": "bemr106.pdf",
+   "title": "Mridang Between Home and School",
+   "kind": "Non-fiction",
+   "bookPath": "grade2/english/bemr106.pdf"
+  },
+  {
+   "chapter": 7,
+   "pdfFile": "bemr107.pdf",
+   "title": "This Is My Town",
+   "kind": "Non-fiction",
+   "bookPath": "grade2/english/bemr107.pdf"
+  },
+  {
+   "chapter": 8,
+   "pdfFile": "bemr108.pdf",
+   "title": "Mridang",
+   "kind": "Non-fiction",
+   "bookPath": "grade2/english/bemr108.pdf"
+  },
+  {
+   "chapter": 9,
+   "pdfFile": "bemr109.pdf",
+   "title": "Mridang",
+   "kind": "Non-fiction",
+   "bookPath": "grade2/english/bemr109.pdf"
+  },
+  {
+   "chapter": 10,
+   "pdfFile": "bemr110.pdf",
+   "title": "Mridang",
+   "kind": "Non-fiction",
+   "bookPath": "grade2/english/bemr110.pdf"
+  },
+  {
+   "chapter": 11,
+   "pdfFile": "bemr111.pdf",
+   "title": "Mridang",
+   "kind": "Non-fiction",
+   "bookPath": "grade2/english/bemr111.pdf"
+  },
+  {
+   "chapter": 12,
+   "pdfFile": "bemr112.pdf",
+   "title": "Little Drops of Water, Little Grains of Sand, Make the Mighty Ocean",
+   "kind": "Non-fiction",
+   "bookPath": "grade2/english/bemr112.pdf"
+  },
+  {
+   "chapter": 13,
+   "pdfFile": "bemr113.pdf",
+   "title": "Mridang",
+   "kind": "Non-fiction",
+   "bookPath": "grade2/english/bemr113.pdf"
+  }
+ ]
+}

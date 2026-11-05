@@ -1,0 +1,82 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 12",
+ "subject": "Accountancy",
+ "code": "leac1",
+ "imageSubject": "Accountancy",
+ "seeded": true,
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "leac101.pdf",
+   "title": "Accounting for Partnership: Basic Concepts",
+   "bookPath": "grade12/accountancy/leac101.pdf",
+   "subtopics": [
+    {
+     "section": "1.1",
+     "title": "Nature of Partnership"
+    }
+   ],
+   "pdfFiles": [
+    "leac101.pdf"
+   ]
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "leac102.pdf",
+   "title": "Reconstitution of a Partnership Firm – Admission",
+   "bookPath": "grade12/accountancy/leac102.pdf",
+   "subtopics": [
+    {
+     "section": "2.1",
+     "title": "Modes of Reconstitution of a Partnership"
+    },
+    {
+     "section": "2.2",
+     "title": "Admission of a New Partner"
+    }
+   ],
+   "pdfFiles": [
+    "leac102.pdf"
+   ]
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "leac103.pdf",
+   "title": "Reconstitution of a Partnership Firm",
+   "bookPath": "grade12/accountancy/leac103.pdf",
+   "subtopics": [
+    {
+     "section": "3.1",
+     "title": "Ascertaining the Amount Due to Retiring"
+    },
+    {
+     "section": "3.2",
+     "title": "New Profit Sharing Ratio"
+    }
+   ],
+   "pdfFiles": [
+    "leac103.pdf"
+   ]
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "leac104.pdf",
+   "title": "Dissolution of Partnership Firm",
+   "bookPath": "grade12/accountancy/leac104.pdf",
+   "subtopics": [
+    {
+     "section": "4.1",
+     "title": "Dissolution of Partnership"
+    },
+    {
+     "section": "4.2",
+     "title": "Dissolution of a Firm"
+    }
+   ],
+   "pdfFiles": [
+    "leac104.pdf"
+   ]
+  }
+ ]
+}

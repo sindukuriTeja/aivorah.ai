@@ -1,0 +1,149 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 3",
+ "subject": "Mathematics",
+ "code": "cemm1",
+ "imageSubject": "Mathematics",
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "cemm101.pdf",
+   "title": "What’s in a Name?",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm101.pdf",
+   "pdfFiles": [
+    "cemm101.pdf"
+   ]
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "cemm102.pdf",
+   "title": "Toy Joy",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm102.pdf",
+   "pdfFiles": [
+    "cemm102.pdf"
+   ]
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "cemm103.pdf",
+   "title": "Double Century",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm103.pdf",
+   "pdfFiles": [
+    "cemm103.pdf"
+   ]
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "cemm104.pdf",
+   "title": "Vacation with My Nani Maa",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm104.pdf",
+   "pdfFiles": [
+    "cemm104.pdf"
+   ]
+  },
+  {
+   "chapter": 5,
+   "pdfFile": "cemm105.pdf",
+   "title": "Fun with Shapes",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm105.pdf",
+   "pdfFiles": [
+    "cemm105.pdf"
+   ]
+  },
+  {
+   "chapter": 6,
+   "pdfFile": "cemm106.pdf",
+   "title": "House of Hundreds – I",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm106.pdf",
+   "pdfFiles": [
+    "cemm106.pdf"
+   ]
+  },
+  {
+   "chapter": 7,
+   "pdfFile": "cemm107.pdf",
+   "title": "Raksha Bandhan",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm107.pdf",
+   "pdfFiles": [
+    "cemm107.pdf"
+   ]
+  },
+  {
+   "chapter": 8,
+   "pdfFile": "cemm108.pdf",
+   "title": "Fair Share",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm108.pdf",
+   "pdfFiles": [
+    "cemm108.pdf"
+   ]
+  },
+  {
+   "chapter": 9,
+   "pdfFile": "cemm109.pdf",
+   "title": "House of Hundreds – II",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm109.pdf",
+   "pdfFiles": [
+    "cemm109.pdf"
+   ]
+  },
+  {
+   "chapter": 10,
+   "pdfFile": "cemm110.pdf",
+   "title": "Fun at Class Party!",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm110.pdf",
+   "pdfFiles": [
+    "cemm110.pdf"
+   ]
+  },
+  {
+   "chapter": 11,
+   "pdfFile": "cemm111.pdf",
+   "title": "Filling and Lifting",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm111.pdf",
+   "pdfFiles": [
+    "cemm111.pdf"
+   ]
+  },
+  {
+   "chapter": 12,
+   "pdfFile": "cemm112.pdf",
+   "title": "Give and Take",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm112.pdf",
+   "pdfFiles": [
+    "cemm112.pdf"
+   ]
+  },
+  {
+   "chapter": 13,
+   "pdfFile": "cemm113.pdf",
+   "title": "Time Goes On",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm113.pdf",
+   "pdfFiles": [
+    "cemm113.pdf"
+   ]
+  },
+  {
+   "chapter": 14,
+   "pdfFile": "cemm114.pdf",
+   "title": "The Surajkund Fair",
+   "kind": "Non-fiction",
+   "bookPath": "grade3/mathematics/cemm114.pdf",
+   "pdfFiles": [
+    "cemm114.pdf"
+   ]
+  }
+ ]
+}

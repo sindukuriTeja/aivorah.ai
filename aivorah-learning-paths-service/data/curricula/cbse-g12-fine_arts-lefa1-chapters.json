@@ -1,0 +1,65 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 12",
+ "subject": "Fine Art",
+ "code": "lefa1",
+ "imageSubject": "Fine_Arts",
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "lefa101.pdf",
+   "title": "The Manuscript Painting Tradition",
+   "kind": "Non-fiction",
+   "bookPath": "grade12/fine_arts/lefa101.pdf"
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "lefa102.pdf",
+   "title": "The Rajasthani Schools of Painting",
+   "kind": "Non-fiction",
+   "bookPath": "grade12/fine_arts/lefa102.pdf"
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "lefa103.pdf",
+   "title": "The Mughal School of Miniature Painting",
+   "kind": "Non-fiction",
+   "bookPath": "grade12/fine_arts/lefa103.pdf"
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "lefa104.pdf",
+   "title": "The Deccani Schools of Painting",
+   "kind": "Non-fiction",
+   "bookPath": "grade12/fine_arts/lefa104.pdf"
+  },
+  {
+   "chapter": 5,
+   "pdfFile": "lefa105.pdf",
+   "title": "The Pahari Schools of Painting",
+   "kind": "Non-fiction",
+   "bookPath": "grade12/fine_arts/lefa105.pdf"
+  },
+  {
+   "chapter": 6,
+   "pdfFile": "lefa106.pdf",
+   "title": "Company Painting a",
+   "kind": "Non-fiction",
+   "bookPath": "grade12/fine_arts/lefa106.pdf"
+  },
+  {
+   "chapter": 7,
+   "pdfFile": "lefa107.pdf",
+   "title": "The Modern Indian Art",
+   "kind": "Non-fiction",
+   "bookPath": "grade12/fine_arts/lefa107.pdf"
+  },
+  {
+   "chapter": 8,
+   "pdfFile": "lefa108.pdf",
+   "title": "The Living Art Traditions of India",
+   "kind": "Non-fiction",
+   "bookPath": "grade12/fine_arts/lefa108.pdf"
+  }
+ ]
+}

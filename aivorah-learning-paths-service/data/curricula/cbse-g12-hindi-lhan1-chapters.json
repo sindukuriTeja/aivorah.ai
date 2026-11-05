@@ -1,0 +1,28 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 12",
+ "subject": "Hindi",
+ "code": "lhan1",
+ "imageSubject": "Hindi",
+ "seeded": true,
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "lhan101.pdf",
+   "title": "Chapter 1",
+   "bookPath": "grade12/hindi/lhan101.pdf"
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "lhan102.pdf",
+   "title": "Chapter 2",
+   "bookPath": "grade12/hindi/lhan102.pdf"
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "lhan103.pdf",
+   "title": "यह पुस्तक",
+   "bookPath": "grade12/hindi/lhan103.pdf"
+  }
+ ]
+}

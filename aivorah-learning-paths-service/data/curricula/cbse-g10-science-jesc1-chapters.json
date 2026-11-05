@@ -1,0 +1,237 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 10",
+ "subject": "Science",
+ "code": "jesc1",
+ "imageSubject": "Science",
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "jesc101.pdf",
+   "title": "Chemical Reactions and Equations",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "1.1",
+     "title": "CHEMIC"
+    }
+   ],
+   "bookPath": "grade10/science/jesc101.pdf",
+   "pdfFiles": [
+    "jesc101.pdf"
+   ]
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "jesc102.pdf",
+   "title": "Acids, Bases and Salts",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "2.1",
+     "title": "UNDERSTUNDERST"
+    },
+    {
+     "section": "2.3",
+     "title": "HOW STRONG ARE ACID OR BASE SOLUTIONS"
+    },
+    {
+     "section": "2.4",
+     "title": "MORE ABOUT SAL"
+    }
+   ],
+   "bookPath": "grade10/science/jesc102.pdf",
+   "pdfFiles": [
+    "jesc102.pdf"
+   ]
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "jesc103.pdf",
+   "title": "Metals and Non-metals",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "3.1",
+     "title": "PHYSIC"
+    }
+   ],
+   "bookPath": "grade10/science/jesc103.pdf",
+   "pdfFiles": [
+    "jesc103.pdf"
+   ]
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "jesc104.pdf",
+   "title": "Carbon and its Compounds",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "4.1",
+     "title": "BONDING IN CARBON"
+    }
+   ],
+   "bookPath": "grade10/science/jesc104.pdf",
+   "pdfFiles": [
+    "jesc104.pdf"
+   ]
+  },
+  {
+   "chapter": 5,
+   "pdfFile": "jesc105.pdf",
+   "title": "Life Processes",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "5.2",
+     "title": "NUTRITION"
+    },
+    {
+     "section": "5.3",
+     "title": "RESPIR"
+    }
+   ],
+   "bookPath": "grade10/science/jesc105.pdf",
+   "pdfFiles": [
+    "jesc105.pdf"
+   ]
+  },
+  {
+   "chapter": 6,
+   "pdfFile": "jesc106.pdf",
+   "title": "Control and Coordination",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "6.1",
+     "title": "ANIMALS"
+    }
+   ],
+   "bookPath": "grade10/science/jesc106.pdf",
+   "pdfFiles": [
+    "jesc106.pdf"
+   ]
+  },
+  {
+   "chapter": 7,
+   "pdfFile": "jesc107.pdf",
+   "title": "How do Organisms Reproduce?",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "7.1",
+     "title": "DO ORG"
+    }
+   ],
+   "bookPath": "grade10/science/jesc107.pdf",
+   "pdfFiles": [
+    "jesc107.pdf"
+   ]
+  },
+  {
+   "chapter": 8,
+   "pdfFile": "jesc108.pdf",
+   "title": "Heredity",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "8.2",
+     "title": "HEREDITY"
+    }
+   ],
+   "bookPath": "grade10/science/jesc108.pdf",
+   "pdfFiles": [
+    "jesc108.pdf"
+   ]
+  },
+  {
+   "chapter": 9,
+   "pdfFile": "jesc109.pdf",
+   "title": "Light – Reflection and Refraction",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "9.1",
+     "title": "REFLECTION OF LIGHT"
+    },
+    {
+     "section": "9.2",
+     "title": "SPHERIC"
+    }
+   ],
+   "bookPath": "grade10/science/jesc109.pdf",
+   "pdfFiles": [
+    "jesc109.pdf"
+   ]
+  },
+  {
+   "chapter": 10,
+   "pdfFile": "jesc110.pdf",
+   "title": "The Human Eye and the Colourful World",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "10.1",
+     "title": "THE HUMAN EYE"
+    },
+    {
+     "section": "10.2",
+     "title": "DEFECTS OF VISION AND THEIR CORRECTION"
+    }
+   ],
+   "bookPath": "grade10/science/jesc110.pdf",
+   "pdfFiles": [
+    "jesc110.pdf"
+   ]
+  },
+  {
+   "chapter": 11,
+   "pdfFile": "jesc111.pdf",
+   "title": "Electricity",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "11.1",
+     "title": "ELECTRIC CURRENT AND CIRCUIT"
+    }
+   ],
+   "bookPath": "grade10/science/jesc111.pdf",
+   "pdfFiles": [
+    "jesc111.pdf"
+   ]
+  },
+  {
+   "chapter": 12,
+   "pdfFile": "jesc112.pdf",
+   "title": "Magnetic Effects of Electric Current",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "12.1",
+     "title": "MAGNETIC FIELD AND FIELD LINES"
+    }
+   ],
+   "bookPath": "grade10/science/jesc112.pdf",
+   "pdfFiles": [
+    "jesc112.pdf"
+   ]
+  },
+  {
+   "chapter": 13,
+   "pdfFile": "jesc113.pdf",
+   "title": "Our Environment",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "13.2",
+     "title": "HOW DO OUR ACTIVITIES AFFECT THEHOW DO OUR ACTIVITIES"
+    }
+   ],
+   "bookPath": "grade10/science/jesc113.pdf",
+   "pdfFiles": [
+    "jesc113.pdf"
+   ]
+  }
+ ]
+}

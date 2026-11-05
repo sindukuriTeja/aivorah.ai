@@ -1,0 +1,35 @@
+{
+  "name": "aivorah-profile-service",
+  "version": "1.0.0",
+  "description": "Aivorah profile microservice (profile fields, photo upload) — extracted from ai-mentor/server/routes/user.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "smoke": "node tests/smoke.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.100.0",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.10.1",
+    "resend": "^6.24.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.4"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/jest.setup.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "tests/smoke.js"
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+version: 2.1
+
+# Cross-repo E2E gate for aivorah-frontend PRs, without that repo holding any
+# copy of this test code. aivorah-frontend's CircleCI pipeline (trigger-e2e
+# job) triggers a pipeline HERE via CircleCI's own API once a PR's Vercel
+# preview is live, passing base_url/target_sha/target_repo as parameters.
+# This runs the smoke suite against that live preview, then reports a commit
+# status back onto aivorah-frontend's SHA via the GitHub Statuses API, so the
+# result shows up on that PR even though the test code and execution never
+# leave this repo.
+#
+# GitHub Actions was tried first and abandoned: its Secrets API rejected even
+# a trivial value with an unexplained 400 on this repo (2026-09-10) - an
+# account/billing-side issue, not something fixable from a workflow file.
+# CircleCI project env vars (used below) don't have that problem.
+
+parameters:
+  run_pr_preview_check:
+    type: boolean
+    default: false
+  base_url:
+    type: string
+    default: ""
+  target_sha:
+    type: string
+    default: ""
+  target_repo:
+    type: string
+    default: "aivorah24/aivorah-frontend"
+  # Full suite, all accounts, sharded - the CircleCI equivalent of
+  # .github/workflows/e2e.yml (blocked on this account: GitHub Actions jobs
+  # aren't starting due to a billing/payment issue, confirmed via run
+  # annotations on 2026-09-10 - "recent account payments have failed").
+  # e2e.yml itself is untouched and should go back to being the real suite
+  # once that's resolved; this is the working alternative in the meantime.
+  run_full_e2e:
+    type: boolean
+    default: false
+  test_filter:
+    type: string
+    default: ""
+
+executors:
+  node:
+    docker:
+      - image: cimg/node:22.11-browsers
+    working_directory: ~/project
+
+jobs:
+  pr-preview-smoke:
+    executor: node
+    steps:
+      - run:
+          name: Mark aivorah-frontend commit as pending
+          command: |
+            curl -sf -X POST \
+              -H "Authorization: token $FRONTEND_STATUS_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/<< pipeline.parameters.target_repo >>/statuses/<< pipeline.parameters.target_sha >>" \
+              -d "{\"state\":\"pending\",\"context\":\"e2e/smoke (aivorah-e2e-tests)\",\"description\":\"Running smoke suite against PR preview...\",\"target_url\":\"https://app.circleci.com/pipelines/gh/aivorah24/aivorah-e2e-tests/<< pipeline.number >>\"}"
+      - checkout
+      - restore_cache:
+          keys:
+            - npm-deps-v1-{{ checksum "package-lock.json" }}
+      - run:
+          name: Install Dependencies
+          command: npm ci
+      - save_cache:
+          key: npm-deps-v1-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
+      - run:
+          name: Install Playwright browsers
+          command: npx playwright install --with-deps chromium chrome
+      - run:
+          name: Log in the smoke accounts + snapshot profiles
+          command: node tests/ci/setup.mjs
+          environment:
+            ACCOUNT_FILTER: "parent-a,student-a,teacher-a,parent-j"
+            BASE_URL: << pipeline.parameters.base_url >>
+      - run:
+          name: Run smoke specs against the PR preview
+          command: |
+            # `command: |` steps run under `set -eo pipefail`, which aborts
+            # the whole step the instant playwright exits non-zero - a
+            # following `when: always` step can't read a shell $? that was
+            # never reached. Capture the real exit code inside the `if`
+            # condition (the one context -e doesn't trigger on), persist it
+            # to a file the final step reads, then re-exit with it so this
+            # step's own CircleCI status still reflects pass/fail correctly.
+            if npx playwright test \
+              tests/parent/b2b-login.spec.js \
+              tests/parent/dashboard/dashboard.spec.js \
+              tests/parent/my-kids/reset-child-password.spec.js \
+              tests/student/b2b-login.spec.js \
+              tests/student/learning-paths.spec.js \
+              tests/teacher/b2b-login.spec.js \
+              tests/teacher/dashboard/dashboard.spec.js \
+              --reporter=html; then
+              echo 0 > /tmp/pw_exit_code
+            else
+              echo 1 > /tmp/pw_exit_code
+            fi
+            exit "$(cat /tmp/pw_exit_code)"
+          environment:
+            PLAYWRIGHT_SKIP_GLOBAL_HOOKS: "true"
+            BASE_URL: << pipeline.parameters.base_url >>
+      - store_artifacts:
+          path: playwright-report
+          destination: playwright-report
+      - run:
+          name: Report result back onto aivorah-frontend's commit
+          when: always
+          command: |
+            if [ "$(cat /tmp/pw_exit_code 2>/dev/null)" = "0" ]; then
+              STATE="success"
+            else
+              STATE="failure"
+            fi
+            DESC="Smoke suite ${STATE} against PR preview"
+            curl -sf -X POST \
+              -H "Authorization: token $FRONTEND_STATUS_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/<< pipeline.parameters.target_repo >>/statuses/<< pipeline.parameters.target_sha >>" \
+              -d "{\"state\":\"${STATE}\",\"context\":\"e2e/smoke (aivorah-e2e-tests)\",\"description\":\"${DESC}\",\"target_url\":\"https://app.circleci.com/pipelines/gh/aivorah24/aivorah-e2e-tests/<< pipeline.number >>\"}"
+
+  # -- Full suite: setup (login all accounts, once) -> 4-way sharded test ->
+  # teardown (restore mutated accounts, once). Mirrors e2e.yml's setup/test/
+  # teardown jobs; CircleCI project env vars (synced from .env, 2026-09-10)
+  # replace e2e.yml's per-step `secrets.X` mapping - every job here already
+  # has all of them, no explicit listing needed.
+  full-e2e-setup:
+    executor: node
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - npm-deps-v1-{{ checksum "package-lock.json" }}
+      - run:
+          name: Install Dependencies
+          command: npm ci
+      - save_cache:
+          key: npm-deps-v1-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
+      - run:
+          name: Install Playwright browsers
+          command: npx playwright install --with-deps chromium chrome
+      - run:
+          name: Warm up services + log in every account + snapshot profiles
+          command: node tests/ci/setup.mjs
+          environment:
+            BASE_URL: https://aivorah-frontend-git-master-aivorah24-9470s-projects.vercel.app
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .auth
+            - .profile-snapshot.json
+
+  full-e2e-shard:
+    executor: node
+    parallelism: 4
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - restore_cache:
+          keys:
+            - npm-deps-v1-{{ checksum "package-lock.json" }}
+      - run:
+          name: Install Dependencies
+          command: npm ci
+      - run:
+          name: Install Playwright browsers
+          command: npx playwright install --with-deps chromium chrome
+      - run:
+          name: Run this shard
+          command: |
+            FILTER=""
+            if [ -n "<< pipeline.parameters.test_filter >>" ]; then
+              FILTER="--grep=<< pipeline.parameters.test_filter >>"
+            fi
+            npx playwright test --shard=$((CIRCLE_NODE_INDEX + 1))/$CIRCLE_NODE_TOTAL --reporter=blob $FILTER
+          environment:
+            PLAYWRIGHT_SKIP_GLOBAL_HOOKS: "true"
+            BASE_URL: https://aivorah-frontend-git-master-aivorah24-9470s-projects.vercel.app
+      - store_artifacts:
+          path: blob-report
+          destination: blob-report-<< pipeline.number >>
+
+  full-e2e-teardown:
+    executor: node
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - restore_cache:
+          keys:
+            - npm-deps-v1-{{ checksum "package-lock.json" }}
+      - run:
+          name: Install Dependencies
+          command: npm ci
+      - run:
+          name: Restore every mutated account
+          command: node tests/ci/teardown.mjs
+
+workflows:
+  pr-preview-check:
+    when: << pipeline.parameters.run_pr_preview_check >>
+    jobs:
+      - pr-preview-smoke
+
+  full-e2e:
+    when: << pipeline.parameters.run_full_e2e >>
+    jobs:
+      - full-e2e-setup
+      - full-e2e-shard:
+          requires:
+            - full-e2e-setup
+      - full-e2e-teardown:
+          requires:
+            - full-e2e-setup
+            - full-e2e-shard

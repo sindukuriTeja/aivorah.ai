@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact: Eilla Legal Consultants</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html" aria-label="Eilla Legal Consultants, home">
+      <span class="brand__name">Eilla <b>Legal</b> Consultants</span>
+      <span class="brand__tag">Specialist Legal Services</span>
+    </a>
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="firm.html">The Firm</a>
+      <a href="practice-areas.html">Practice Areas</a>
+      <a href="people.html">People</a>
+      <a href="insights.html">Insights</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <div class="header__cta">
+      <a class="btn btn--gold" href="contact.html">Book a Consultation</a>
+      <button class="nav-toggle" data-nav-toggle aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero" data-screen-label="Contact — Hero">
+    <div class="wrap">
+      <div class="crumbs"><a href="index.html">Home</a> · <span>Contact</span></div>
+      <span class="page-hero__eyebrow">Contact</span>
+      <h1>Begin with a confidential conversation.</h1>
+      <p>Tell us the outline of your matter. We will respond within one business day and, where we can assist, arrange time with the appropriate member of our team.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split split--top" style="grid-template-columns: 1.3fr 1fr;">
+      <!-- form -->
+      <div class="reveal">
+        <span class="eyebrow">Enquiry</span>
+        <h2 class="h-section">Request a consultation</h2>
+        <form class="form-grid mt-l" onsubmit="event.preventDefault(); this.reset(); document.getElementById('form-ok').style.display='block';">
+          <div class="field"><label for="fn">First name</label><input id="fn" name="fn" type="text" autocomplete="given-name" required /></div>
+          <div class="field"><label for="ln">Last name</label><input id="ln" name="ln" type="text" autocomplete="family-name" required /></div>
+          <div class="field"><label for="em">Email</label><input id="em" name="em" type="email" autocomplete="email" required /></div>
+          <div class="field"><label for="ph">Phone</label><input id="ph" name="ph" type="tel" autocomplete="tel" /></div>
+          <div class="field field--full">
+            <label for="area">Area of matter</label>
+            <select id="area" name="area">
+              <option>Regulatory Representation</option>
+              <option>Compliance &amp; Documentation</option>
+              <option>Registrations &amp; Advisory</option>
+              <option>Ongoing Legal Support</option>
+              <option>Not sure / Other</option>
+            </select>
+          </div>
+          <div class="field field--full"><label for="msg">Briefly, what is the matter?</label><textarea id="msg" name="msg" placeholder="Please do not share confidential details until we have confirmed there is no conflict of interest."></textarea></div>
+          <div class="field--full" style="display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
+            <button class="btn btn--gold" type="submit">Send Enquiry <span class="arrow">→</span></button>
+            <span id="form-ok" style="display:none; color:var(--muted); font-size:14px;">Thank you. We will be in touch within one business day.</span>
+          </div>
+        </form>
+      </div>
+
+      <!-- details -->
+      <aside class="reveal">
+        <div class="contact-detail">
+          <h4>Office</h4>
+          <p>Eilla Legal Consultants<br />[Office Address: to be confirmed]<br />[Address line 2: to be confirmed]<br />Telangana, India</p>
+        </div>
+        <div class="contact-detail">
+          <h4>Telephone</h4>
+          <p><a href="tel:#">[Phone: to be confirmed]</a></p>
+        </div>
+        <div class="contact-detail">
+          <h4>Email</h4>
+          <p><a href="mailto:contact@eillalegalconsultants.in">contact@eillalegalconsultants.in</a></p>
+        </div>
+        <div class="contact-detail">
+          <h4>Hours</h4>
+          <p>Monday – Friday · 9:30 – 18:30 IST</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section--paper" style="padding-top:0;">
+    <div class="wrap">
+      <div class="ph ph-wide reveal" data-label="map of Hyderabad office location" style="min-height:340px;"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-top wrap">
+    <div class="footer-grid">
+      <div class="footer__brand">
+        <span class="brand__name">Eilla Legal Consultants</span>
+        <div class="brand__tag">Specialist Legal Services</div>
+        <p>A specialist legal consultancy providing regulatory representation, compliance, registrations and ongoing advisory support for individuals and businesses.</p>
+      </div>
+      <div class="footer-col"><h4>Firm</h4><ul><li><a href="firm.html">The Firm</a></li><li><a href="people.html">People</a></li><li><a href="insights.html">Insights</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Practice</h4><ul><li><a href="practice-areas.html">Regulatory Representation</a></li><li><a href="practice-areas.html">Compliance &amp; Documentation</a></li><li><a href="practice-areas.html">Registrations &amp; Advisory</a></li><li><a href="practice-areas.html">Ongoing Legal Support</a></li></ul></div>
+      <div class="footer-col footer__contact"><h4>Hyderabad</h4><ul><li><strong>Eilla Legal Consultants</strong></li><li>[Office Address: to be confirmed]</li><li>[Address line 2: to be confirmed]</li><li><a href="tel:#">[Phone: to be confirmed]</a></li><li><a href="mailto:contact@eillalegalconsultants.in">contact@eillalegalconsultants.in</a></li></ul></div>
+    </div>
+  </div>
+  <div class="footer-bottom wrap">
+    <span>© 2026 Eilla Legal Consultants All rights reserved.</span>
+    <span class="disclaimer">As per the rules of the Bar Council of India, this website is for informational purposes only and does not constitute solicitation or legal advice.</span>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>

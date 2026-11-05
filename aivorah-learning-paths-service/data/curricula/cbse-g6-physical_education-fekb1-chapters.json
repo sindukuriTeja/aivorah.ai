@@ -1,0 +1,51 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 6",
+ "subject": "Physical Education and Well Being",
+ "code": "fekb1",
+ "imageSubject": "Physical_Education",
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "fekb101.pdf",
+   "title": "Part 1 01_kitchen_garden.Indd 19/14/2024 2:06:12 Pm",
+   "kind": "Non-fiction",
+   "bookPath": "grade6/physical_education/fekb101.pdf"
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "fekb102.pdf",
+   "title": "School Kitchen Garden Project 1: Project 2",
+   "kind": "Non-fiction",
+   "bookPath": "grade6/physical_education/fekb102.pdf"
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "fekb103.pdf",
+   "title": "Biodiversity M a",
+   "kind": "Non-fiction",
+   "bookPath": "grade6/physical_education/fekb103.pdf"
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "fekb104.pdf",
+   "title": "Project 4 Animation and Games",
+   "kind": "Non-fiction",
+   "bookPath": "grade6/physical_education/fekb104.pdf"
+  },
+  {
+   "chapter": 5,
+   "pdfFile": "fekb105.pdf",
+   "title": "Biodiversity W O",
+   "kind": "Non-fiction",
+   "bookPath": "grade6/physical_education/fekb105.pdf"
+  },
+  {
+   "chapter": 6,
+   "pdfFile": "fekb106.pdf",
+   "title": "Cooking Without Fire Project 6",
+   "kind": "Non-fiction",
+   "bookPath": "grade6/physical_education/fekb106.pdf"
+  }
+ ]
+}

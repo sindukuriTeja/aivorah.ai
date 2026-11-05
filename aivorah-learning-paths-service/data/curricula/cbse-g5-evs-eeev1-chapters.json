@@ -1,0 +1,109 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 5",
+ "subject": "The World Around Us",
+ "code": "eeev1",
+ "imageSubject": "EVS",
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "eeev101.pdf",
+   "title": "Water — The Essence of Life",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeev101.pdf",
+   "pdfFiles": [
+    "eeev101.pdf"
+   ]
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "eeev102.pdf",
+   "title": "Journey of a River",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeev102.pdf",
+   "pdfFiles": [
+    "eeev102.pdf"
+   ]
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "eeev103.pdf",
+   "title": "The Mystery of Food",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeev103.pdf",
+   "pdfFiles": [
+    "eeev103.pdf"
+   ]
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "eeev104.pdf",
+   "title": "Our School — A Happy Place",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeev104.pdf",
+   "pdfFiles": [
+    "eeev104.pdf"
+   ]
+  },
+  {
+   "chapter": 5,
+   "pdfFile": "eeev105.pdf",
+   "title": "Our Vibrant Country",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeev105.pdf",
+   "pdfFiles": [
+    "eeev105.pdf"
+   ]
+  },
+  {
+   "chapter": 6,
+   "pdfFile": "eeev106.pdf",
+   "title": "Some Unique Places",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeev106.pdf",
+   "pdfFiles": [
+    "eeev106.pdf"
+   ]
+  },
+  {
+   "chapter": 7,
+   "pdfFile": "eeev107.pdf",
+   "title": "Energy — How Things Work",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeev107.pdf",
+   "pdfFiles": [
+    "eeev107.pdf"
+   ]
+  },
+  {
+   "chapter": 8,
+   "pdfFile": "eeev108.pdf",
+   "title": "Clothes — How Things are Made",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeev108.pdf",
+   "pdfFiles": [
+    "eeev108.pdf"
+   ]
+  },
+  {
+   "chapter": 9,
+   "pdfFile": "eeev109.pdf",
+   "title": "Chapter 9",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeev109.pdf",
+   "pdfFiles": [
+    "eeev109.pdf"
+   ]
+  },
+  {
+   "chapter": 10,
+   "pdfFile": "eeev110.pdf",
+   "title": "Earth — Our Shared Home",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeev110.pdf",
+   "pdfFiles": [
+    "eeev110.pdf"
+   ]
+  }
+ ]
+}

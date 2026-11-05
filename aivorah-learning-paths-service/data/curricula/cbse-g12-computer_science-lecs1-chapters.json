@@ -1,0 +1,229 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 12",
+ "subject": "Computer Science",
+ "code": "lecs1",
+ "imageSubject": "Computer Science",
+ "seeded": true,
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "lecs101.pdf",
+   "title": "Chapter 1",
+   "bookPath": "grade12/computer_science/lecs101.pdf",
+   "subtopics": [
+    {
+     "section": "1.2",
+     "title": "Syntax ErrorS"
+    }
+   ],
+   "pdfFiles": [
+    "lecs101.pdf"
+   ]
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "lecs102.pdf",
+   "title": "File Handling in Python",
+   "bookPath": "grade12/computer_science/lecs102.pdf",
+   "subtopics": [
+    {
+     "section": "2.1",
+     "title": "IntroductIon to FIles"
+    },
+    {
+     "section": "2.4",
+     "title": "WrItIng to a text FIle"
+    },
+    {
+     "section": "2.7",
+     "title": "CREATING AND TRAVERSING A TEXT FILE"
+    }
+   ],
+   "pdfFiles": [
+    "lecs102.pdf"
+   ]
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "lecs103.pdf",
+   "title": "Chapter 3",
+   "bookPath": "grade12/computer_science/lecs103.pdf",
+   "subtopics": [
+    {
+     "section": "3.2",
+     "title": "Stack"
+    }
+   ],
+   "pdfFiles": [
+    "lecs103.pdf"
+   ]
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "lecs104.pdf",
+   "title": "Chapter 4",
+   "bookPath": "grade12/computer_science/lecs104.pdf",
+   "subtopics": [
+    {
+     "section": "4.1",
+     "title": "IntroductIon to Queue"
+    }
+   ],
+   "pdfFiles": [
+    "lecs104.pdf"
+   ]
+  },
+  {
+   "chapter": 5,
+   "pdfFile": "lecs105.pdf",
+   "title": "Chapter 5",
+   "bookPath": "grade12/computer_science/lecs105.pdf",
+   "subtopics": [
+    {
+     "section": "5.2",
+     "title": "BuBBle Sort"
+    }
+   ],
+   "pdfFiles": [
+    "lecs105.pdf"
+   ]
+  },
+  {
+   "chapter": 6,
+   "pdfFile": "lecs106.pdf",
+   "title": "Stop Else",
+   "bookPath": "grade12/computer_science/lecs106.pdf",
+   "subtopics": [
+    {
+     "section": "6.2",
+     "title": "LInear Search"
+    },
+    {
+     "section": "6.3",
+     "title": "BInary Search"
+    },
+    {
+     "section": "6.4",
+     "title": "Search By haShIng"
+    }
+   ],
+   "pdfFiles": [
+    "lecs106.pdf"
+   ]
+  },
+  {
+   "chapter": 7,
+   "pdfFile": "lecs107.pdf",
+   "title": "Raw Data",
+   "bookPath": "grade12/computer_science/lecs107.pdf",
+   "subtopics": [
+    {
+     "section": "7.1",
+     "title": "IntroductIon to data"
+    }
+   ],
+   "pdfFiles": [
+    "lecs107.pdf"
+   ]
+  },
+  {
+   "chapter": 8,
+   "pdfFile": "lecs108.pdf",
+   "title": "Chapter 8",
+   "bookPath": "grade12/computer_science/lecs108.pdf",
+   "subtopics": [
+    {
+     "section": "8.2",
+     "title": "FIle SyStem"
+    }
+   ],
+   "pdfFiles": [
+    "lecs108.pdf"
+   ]
+  },
+  {
+   "chapter": 9,
+   "pdfFile": "lecs109.pdf",
+   "title": "Chapter 9",
+   "bookPath": "grade12/computer_science/lecs109.pdf",
+   "subtopics": [
+    {
+     "section": "9.2",
+     "title": "Structured Query Language (SQL)"
+    }
+   ],
+   "pdfFiles": [
+    "lecs109.pdf"
+   ]
+  },
+  {
+   "chapter": 10,
+   "pdfFile": "lecs110.pdf",
+   "title": "Chapter 10",
+   "bookPath": "grade12/computer_science/lecs110.pdf",
+   "subtopics": [
+    {
+     "section": "10.1",
+     "title": "IntroductIon to computer networks"
+    }
+   ],
+   "pdfFiles": [
+    "lecs110.pdf"
+   ]
+  },
+  {
+   "chapter": 11,
+   "pdfFile": "lecs111.pdf",
+   "title": "Chapter 11",
+   "bookPath": "grade12/computer_science/lecs111.pdf",
+   "subtopics": [
+    {
+     "section": "11.1",
+     "title": "ConCept of CommuniCation"
+    },
+    {
+     "section": "11.2",
+     "title": "Components of Data CommuniCation"
+    }
+   ],
+   "pdfFiles": [
+    "lecs111.pdf"
+   ]
+  },
+  {
+   "chapter": 12,
+   "pdfFile": "lecs112.pdf",
+   "title": "Chapter 12",
+   "bookPath": "grade12/computer_science/lecs112.pdf",
+   "subtopics": [
+    {
+     "section": "12.1",
+     "title": "ThreaTs and PrevenTion"
+    },
+    {
+     "section": "12.2",
+     "title": "Malware"
+    }
+   ],
+   "pdfFiles": [
+    "lecs112.pdf"
+   ]
+  },
+  {
+   "chapter": 13,
+   "pdfFile": "lecs113.pdf",
+   "title": "Chapter 13",
+   "bookPath": "grade12/computer_science/lecs113.pdf",
+   "subtopics": [
+    {
+     "section": "13.2",
+     "title": "ApproAches for solvIng projects"
+    }
+   ],
+   "pdfFiles": [
+    "lecs113.pdf"
+   ]
+  }
+ ]
+}

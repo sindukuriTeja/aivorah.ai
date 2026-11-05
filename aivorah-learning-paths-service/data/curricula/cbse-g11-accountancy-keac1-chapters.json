@@ -1,0 +1,119 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 11",
+ "subject": "Accountancy",
+ "code": "keac1",
+ "imageSubject": "Accountancy",
+ "seeded": true,
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "keac101.pdf",
+   "title": "Introduction to Accounting",
+   "bookPath": "grade11/accountancy/keac101.pdf",
+   "subtopics": [
+    {
+     "section": "1.1",
+     "title": "Meaning of Accounting"
+    }
+   ],
+   "pdfFiles": [
+    "keac101.pdf"
+   ]
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "keac102.pdf",
+   "title": "Theory Base of Accounting",
+   "bookPath": "grade11/accountancy/keac102.pdf",
+   "subtopics": [
+    {
+     "section": "2.1",
+     "title": "Generally Accepted Accounting Principles"
+    }
+   ],
+   "pdfFiles": [
+    "keac102.pdf"
+   ]
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "keac103.pdf",
+   "title": "Recording of Transactions - I",
+   "bookPath": "grade11/accountancy/keac103.pdf",
+   "subtopics": [
+    {
+     "section": "3.1",
+     "title": "Business Transactions and Source Document"
+    }
+   ],
+   "pdfFiles": [
+    "keac103.pdf"
+   ]
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "keac104.pdf",
+   "title": "Recording of Transactions - II",
+   "bookPath": "grade11/accountancy/keac104.pdf",
+   "subtopics": [
+    {
+     "section": "4.1",
+     "title": "Cash Book"
+    }
+   ],
+   "pdfFiles": [
+    "keac104.pdf"
+   ]
+  },
+  {
+   "chapter": 5,
+   "pdfFile": "keac105.pdf",
+   "title": "Bank Reconciliation Statement",
+   "bookPath": "grade11/accountancy/keac105.pdf",
+   "subtopics": [
+    {
+     "section": "5.1",
+     "title": "Need for Reconciliation"
+    }
+   ],
+   "pdfFiles": [
+    "keac105.pdf"
+   ]
+  },
+  {
+   "chapter": 6,
+   "pdfFile": "keac106.pdf",
+   "title": "Trial Balance and Rectification of Errors",
+   "bookPath": "grade11/accountancy/keac106.pdf",
+   "subtopics": [
+    {
+     "section": "6.1",
+     "title": "Meaning of Trial Balance"
+    },
+    {
+     "section": "6.2",
+     "title": "Objectives of Preparing the Trial Balance"
+    }
+   ],
+   "pdfFiles": [
+    "keac106.pdf"
+   ]
+  },
+  {
+   "chapter": 7,
+   "pdfFile": "keac107.pdf",
+   "title": "Depreciation, Provisions and Reserves",
+   "bookPath": "grade11/accountancy/keac107.pdf",
+   "subtopics": [
+    {
+     "section": "7.1",
+     "title": "Depreciation"
+    }
+   ],
+   "pdfFiles": [
+    "keac107.pdf"
+   ]
+  }
+ ]
+}

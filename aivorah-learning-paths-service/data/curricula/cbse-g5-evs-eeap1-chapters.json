@@ -1,0 +1,229 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 5",
+ "subject": "The World Around Us",
+ "code": "eeap1",
+ "imageSubject": "EVS",
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "eeap101.pdf",
+   "title": "Super Senses",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap101.pdf",
+   "pdfFiles": [
+    "eeap101.pdf"
+   ]
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "eeap102.pdf",
+   "title": "A Snake Charmer’s Story",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap102.pdf",
+   "pdfFiles": [
+    "eeap102.pdf"
+   ]
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "eeap103.pdf",
+   "title": "From Tasting to Digesting",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap103.pdf",
+   "pdfFiles": [
+    "eeap103.pdf"
+   ]
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "eeap104.pdf",
+   "title": "Mangoes Round the Year",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap104.pdf",
+   "pdfFiles": [
+    "eeap104.pdf"
+   ]
+  },
+  {
+   "chapter": 5,
+   "pdfFile": "eeap105.pdf",
+   "title": "Seeds and Seeds",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap105.pdf",
+   "pdfFiles": [
+    "eeap105.pdf"
+   ]
+  },
+  {
+   "chapter": 6,
+   "pdfFile": "eeap106.pdf",
+   "title": "Every Drop Counts",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap106.pdf",
+   "pdfFiles": [
+    "eeap106.pdf"
+   ]
+  },
+  {
+   "chapter": 7,
+   "pdfFile": "eeap107.pdf",
+   "title": "Experiments with Water",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap107.pdf",
+   "pdfFiles": [
+    "eeap107.pdf"
+   ]
+  },
+  {
+   "chapter": 8,
+   "pdfFile": "eeap108.pdf",
+   "title": "A Treat for Mosquitoes",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap108.pdf",
+   "pdfFiles": [
+    "eeap108.pdf"
+   ]
+  },
+  {
+   "chapter": 9,
+   "pdfFile": "eeap109.pdf",
+   "title": "Up You Go!",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap109.pdf",
+   "pdfFiles": [
+    "eeap109.pdf"
+   ]
+  },
+  {
+   "chapter": 10,
+   "pdfFile": "eeap110.pdf",
+   "title": "Walls Tell Stories",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap110.pdf",
+   "pdfFiles": [
+    "eeap110.pdf"
+   ]
+  },
+  {
+   "chapter": 11,
+   "pdfFile": "eeap111.pdf",
+   "title": "Sunita in Space",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap111.pdf",
+   "pdfFiles": [
+    "eeap111.pdf"
+   ]
+  },
+  {
+   "chapter": 12,
+   "pdfFile": "eeap112.pdf",
+   "title": "What if it Finishes ?",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap112.pdf",
+   "pdfFiles": [
+    "eeap112.pdf"
+   ]
+  },
+  {
+   "chapter": 13,
+   "pdfFile": "eeap113.pdf",
+   "title": "A Shelter so High!",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap113.pdf",
+   "pdfFiles": [
+    "eeap113.pdf"
+   ]
+  },
+  {
+   "chapter": 14,
+   "pdfFile": "eeap114.pdf",
+   "title": "When the Earth Shook!",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap114.pdf",
+   "pdfFiles": [
+    "eeap114.pdf"
+   ]
+  },
+  {
+   "chapter": 15,
+   "pdfFile": "eeap115.pdf",
+   "title": "Blow Hot, Blow Cold",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap115.pdf",
+   "pdfFiles": [
+    "eeap115.pdf"
+   ]
+  },
+  {
+   "chapter": 16,
+   "pdfFile": "eeap116.pdf",
+   "title": "Who will do this Work?",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap116.pdf",
+   "pdfFiles": [
+    "eeap116.pdf"
+   ]
+  },
+  {
+   "chapter": 17,
+   "pdfFile": "eeap117.pdf",
+   "title": "Across the Wall",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap117.pdf",
+   "pdfFiles": [
+    "eeap117.pdf"
+   ]
+  },
+  {
+   "chapter": 18,
+   "pdfFile": "eeap118.pdf",
+   "title": "No Place for Us?",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap118.pdf",
+   "pdfFiles": [
+    "eeap118.pdf"
+   ]
+  },
+  {
+   "chapter": 19,
+   "pdfFile": "eeap119.pdf",
+   "title": "A Seed tells a Farmer’s Story",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap119.pdf",
+   "pdfFiles": [
+    "eeap119.pdf"
+   ]
+  },
+  {
+   "chapter": 20,
+   "pdfFile": "eeap120.pdf",
+   "title": "Whose Forests?",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap120.pdf",
+   "pdfFiles": [
+    "eeap120.pdf"
+   ]
+  },
+  {
+   "chapter": 21,
+   "pdfFile": "eeap121.pdf",
+   "title": "Like Father, Like Daughter",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap121.pdf",
+   "pdfFiles": [
+    "eeap121.pdf"
+   ]
+  },
+  {
+   "chapter": 22,
+   "pdfFile": "eeap122.pdf",
+   "title": "On the Move Again",
+   "kind": "Non-fiction",
+   "bookPath": "grade5/evs/eeap122.pdf",
+   "pdfFiles": [
+    "eeap122.pdf"
+   ]
+  }
+ ]
+}

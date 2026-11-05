@@ -1,0 +1,107 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 11",
+ "subject": "Hindi",
+ "code": "khar1",
+ "imageSubject": "Hindi",
+ "seeded": true,
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "khar101.pdf",
+   "title": "गद्य खंड",
+   "bookPath": "grade11/hindi/khar101.pdf"
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "khar102.pdf",
+   "title": "Chapter 2",
+   "bookPath": "grade11/hindi/khar102.pdf"
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "khar103.pdf",
+   "title": "पाठयपुस्तकों में पाठ्य सामग्री का पुनर्सयोजन",
+   "bookPath": "grade11/hindi/khar103.pdf"
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "khar104.pdf",
+   "title": "यह पुस्तक",
+   "bookPath": "grade11/hindi/khar104.pdf"
+  },
+  {
+   "chapter": 5,
+   "pdfFile": "khar105.pdf",
+   "title": "प्रेमचंद नमक का दारोगा 3",
+   "bookPath": "grade11/hindi/khar105.pdf"
+  },
+  {
+   "chapter": 6,
+   "pdfFile": "khar106.pdf",
+   "title": "कृष्णा सोबती मियाँ नसीरुद्दीन",
+   "bookPath": "grade11/hindi/khar106.pdf"
+  },
+  {
+   "chapter": 7,
+   "pdfFile": "khar107.pdf",
+   "title": "Chapter 7",
+   "bookPath": "grade11/hindi/khar107.pdf"
+  },
+  {
+   "chapter": 8,
+   "pdfFile": "khar108.pdf",
+   "title": "बालमुकुंद गुप्त विदाई-संभाषण",
+   "bookPath": "grade11/hindi/khar108.pdf"
+  },
+  {
+   "chapter": 9,
+   "pdfFile": "khar109.pdf",
+   "title": "शेखर जोशी गलता लोहा",
+   "bookPath": "grade11/hindi/khar109.pdf"
+  },
+  {
+   "chapter": 10,
+   "pdfFile": "khar110.pdf",
+   "title": "Chapter 10",
+   "bookPath": "grade11/hindi/khar110.pdf"
+  },
+  {
+   "chapter": 11,
+   "pdfFile": "khar111.pdf",
+   "title": "कृश्नचंदर जामुन का पेड",
+   "bookPath": "grade11/hindi/khar111.pdf"
+  },
+  {
+   "chapter": 12,
+   "pdfFile": "khar112.pdf",
+   "title": "Chapter 12",
+   "needsTitleReview": true,
+   "bookPath": "grade11/hindi/khar112.pdf"
+  },
+  {
+   "chapter": 13,
+   "pdfFile": "khar113.pdf",
+   "title": "काव्य खंड",
+   "bookPath": "grade11/hindi/khar113.pdf"
+  },
+  {
+   "chapter": 14,
+   "pdfFile": "khar114.pdf",
+   "title": "Chapter 14",
+   "bookPath": "grade11/hindi/khar114.pdf"
+  },
+  {
+   "chapter": 15,
+   "pdfFile": "khar115.pdf",
+   "title": "मीरा मेरे तो गिरधर गोपाल, दूसरो न कोई 3",
+   "bookPath": "grade11/hindi/khar115.pdf"
+  },
+  {
+   "chapter": 16,
+   "pdfFile": "khar116.pdf",
+   "title": "भवानी प्रसाद मिश्र घर की याद",
+   "bookPath": "grade11/hindi/khar116.pdf"
+  }
+ ]
+}

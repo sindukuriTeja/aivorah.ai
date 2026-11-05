@@ -1,0 +1,67 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# test coverage output
+coverage/
+
+# Vercel
+.vercel/
+
+# playwright test-run artifacts
+playwright-report/
+test-results/
+
+# generated native folders
+/ios
+/android
+
+# test coverage output
+coverage/
+
+# Vercel CLI local metadata
+.vercel/
+
+# scratch scripts / one-off admin SQL — may contain real user data, never commit
+.scratch/
+fix.js
+fix_teacher.js
+
+# Personal AI assistant files (CLAUDE.md itself is shared and committed)
+CLAUDE.local.md
+.claude/settings.local.json

@@ -1,0 +1,127 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 10",
+ "subject": "Hindi",
+ "code": "jhsc1",
+ "imageSubject": "Hindi",
+ "seeded": true,
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "jhsc101.pdf",
+   "title": "रासायनिक अभिक्रियाएँ एवं समीकरण",
+   "bookPath": "grade10/hindi/jhsc101.pdf",
+   "pdfFiles": [
+    "jhsc101.pdf"
+   ]
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "jhsc102.pdf",
+   "title": "अम्ल, क्षारक एवं लवण",
+   "bookPath": "grade10/hindi/jhsc102.pdf",
+   "pdfFiles": [
+    "jhsc102.pdf"
+   ]
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "jhsc103.pdf",
+   "title": "धातु एवं अधातु",
+   "bookPath": "grade10/hindi/jhsc103.pdf",
+   "pdfFiles": [
+    "jhsc103.pdf"
+   ]
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "jhsc104.pdf",
+   "title": "कार्बन एवं उसके यौगिक",
+   "bookPath": "grade10/hindi/jhsc104.pdf",
+   "pdfFiles": [
+    "jhsc104.pdf"
+   ]
+  },
+  {
+   "chapter": 5,
+   "pdfFile": "jhsc105.pdf",
+   "title": "जैव प्रक्रम",
+   "bookPath": "grade10/hindi/jhsc105.pdf",
+   "pdfFiles": [
+    "jhsc105.pdf"
+   ]
+  },
+  {
+   "chapter": 6,
+   "pdfFile": "jhsc106.pdf",
+   "title": "नियंत्रण एवं समन्वय",
+   "bookPath": "grade10/hindi/jhsc106.pdf",
+   "pdfFiles": [
+    "jhsc106.pdf"
+   ]
+  },
+  {
+   "chapter": 7,
+   "pdfFile": "jhsc107.pdf",
+   "title": "जीव जनन कैसे करते हैं",
+   "bookPath": "grade10/hindi/jhsc107.pdf",
+   "pdfFiles": [
+    "jhsc107.pdf"
+   ]
+  },
+  {
+   "chapter": 8,
+   "pdfFile": "jhsc108.pdf",
+   "title": "आनुवंशिकता",
+   "bookPath": "grade10/hindi/jhsc108.pdf",
+   "pdfFiles": [
+    "jhsc108.pdf"
+   ]
+  },
+  {
+   "chapter": 9,
+   "pdfFile": "jhsc109.pdf",
+   "title": "प्रकाश – परावर्तन रथा अपवर्तन",
+   "bookPath": "grade10/hindi/jhsc109.pdf",
+   "pdfFiles": [
+    "jhsc109.pdf"
+   ]
+  },
+  {
+   "chapter": 10,
+   "pdfFile": "jhsc110.pdf",
+   "title": "मानव नेत्र तथा रंग-बिरंगा संसार",
+   "bookPath": "grade10/hindi/jhsc110.pdf",
+   "pdfFiles": [
+    "jhsc110.pdf"
+   ]
+  },
+  {
+   "chapter": 11,
+   "pdfFile": "jhsc111.pdf",
+   "title": "विद्युत",
+   "bookPath": "grade10/hindi/jhsc111.pdf",
+   "pdfFiles": [
+    "jhsc111.pdf"
+   ]
+  },
+  {
+   "chapter": 12,
+   "pdfFile": "jhsc112.pdf",
+   "title": "विद्युत धारा के चुंबकीय प्रभाव",
+   "bookPath": "grade10/hindi/jhsc112.pdf",
+   "pdfFiles": [
+    "jhsc112.pdf"
+   ]
+  },
+  {
+   "chapter": 13,
+   "pdfFile": "jhsc113.pdf",
+   "title": "हमारा पर्यावरण",
+   "bookPath": "grade10/hindi/jhsc113.pdf",
+   "pdfFiles": [
+    "jhsc113.pdf"
+   ]
+  }
+ ]
+}

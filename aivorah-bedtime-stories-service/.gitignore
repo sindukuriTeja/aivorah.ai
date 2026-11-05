@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.local
+*.log
+coverage/
+
+# TTS audio cache — regenerates on first play per page+narrator, not source content
+data/audio/stories/*.mp3
+data/audio/stories/*.timings.json

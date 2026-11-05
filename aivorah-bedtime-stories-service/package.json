@@ -1,0 +1,21 @@
+{
+  "name": "aivorah-bedtime-stories-service",
+  "version": "1.0.0",
+  "description": "Aivorah Bedtime Stories — standalone microservice (story list, reader pages, TTS narration with word-level timing, ambient page-flip sound)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
+  }
+}

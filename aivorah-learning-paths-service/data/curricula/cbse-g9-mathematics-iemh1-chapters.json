@@ -1,0 +1,213 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 9",
+ "subject": "Mathematics",
+ "code": "iemh1",
+ "imageSubject": "Mathematics",
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "iemh101.pdf",
+   "title": "Orienting Yourself: The Use of Coordinates",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "1.2",
+     "title": "Settling In"
+    }
+   ],
+   "bookPath": "grade9/mathematics/iemh101.pdf",
+   "pdfFiles": [
+    "iemh101.pdf"
+   ]
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "iemh102.pdf",
+   "title": "Introduction to Linear Polynomials",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "2.2",
+     "title": "Linear Polynomials"
+    },
+    {
+     "section": "2.3",
+     "title": "Exploring linear patterns"
+    },
+    {
+     "section": "2.5",
+     "title": "Linear Relationships"
+    },
+    {
+     "section": "2.6",
+     "title": "Visualising linear relationships"
+    }
+   ],
+   "bookPath": "grade9/mathematics/iemh102.pdf",
+   "pdfFiles": [
+    "iemh102.pdf"
+   ]
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "iemh103.pdf",
+   "title": "The World of Numbers",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "3.2",
+     "title": "The Revolution of"
+    },
+    {
+     "section": "3.3",
+     "title": "Integers"
+    },
+    {
+     "section": "3.4",
+     "title": "Filling the Spaces"
+    },
+    {
+     "section": "3.5",
+     "title": "Irrational Numbers"
+    },
+    {
+     "section": "3.6",
+     "title": "Real Numbers"
+    },
+    {
+     "section": "3.7",
+     "title": "Conclusion"
+    }
+   ],
+   "bookPath": "grade9/mathematics/iemh103.pdf",
+   "pdfFiles": [
+    "iemh103.pdf"
+   ]
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "iemh104.pdf",
+   "title": "Exploring Algebraic Identities",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "4.2",
+     "title": "Visualising Identities"
+    }
+   ],
+   "bookPath": "grade9/mathematics/iemh104.pdf",
+   "pdfFiles": [
+    "iemh104.pdf"
+   ]
+  },
+  {
+   "chapter": 5,
+   "pdfFile": "iemh105.pdf",
+   "title": "Chapter 5",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "5.1",
+     "title": "Definitions"
+    }
+   ],
+   "bookPath": "grade9/mathematics/iemh105.pdf",
+   "pdfFiles": [
+    "iemh105.pdf"
+   ]
+  },
+  {
+   "chapter": 6,
+   "pdfFile": "iemh106.pdf",
+   "title": "Measuring Space: Perimeter and Area",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "6.1",
+     "title": "Perimeter of a Shape"
+    },
+    {
+     "section": "6.2",
+     "title": "Perimeter of a Circle"
+    },
+    {
+     "section": "6.4",
+     "title": "Length of an Arc of a Circle"
+    },
+    {
+     "section": "6.5",
+     "title": "Problems, Puzzles, and Paradoxes on Perimeter"
+    },
+    {
+     "section": "6.6",
+     "title": "Area of a Rectangle"
+    },
+    {
+     "section": "6.7",
+     "title": "Area of a Parallelogram"
+    },
+    {
+     "section": "6.8",
+     "title": "Area of a Triangle"
+    },
+    {
+     "section": "6.9",
+     "title": "Squaring a Rectangle"
+    },
+    {
+     "section": "6.10",
+     "title": "Area of a Circle"
+    }
+   ],
+   "bookPath": "grade9/mathematics/iemh106.pdf",
+   "pdfFiles": [
+    "iemh106.pdf"
+   ]
+  },
+  {
+   "chapter": 7,
+   "pdfFile": "iemh107.pdf",
+   "title": "The Mathematics of Maybe: Introduction to Probability",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "7.1",
+     "title": "What is Probability"
+    },
+    {
+     "section": "7.2",
+     "title": "Measuring Probability Objectively"
+    },
+    {
+     "section": "7.3",
+     "title": "Elements of Probability"
+    },
+    {
+     "section": "7.4",
+     "title": "Tree diagrams"
+    }
+   ],
+   "bookPath": "grade9/mathematics/iemh107.pdf",
+   "pdfFiles": [
+    "iemh107.pdf"
+   ]
+  },
+  {
+   "chapter": 8,
+   "pdfFile": "iemh108.pdf",
+   "title": "Predicting What Comes Next: Exploring Sequences",
+   "kind": "Non-fiction",
+   "subtopics": [
+    {
+     "section": "8.1",
+     "title": "Introduction to Sequences"
+    }
+   ],
+   "bookPath": "grade9/mathematics/iemh108.pdf",
+   "pdfFiles": [
+    "iemh108.pdf"
+   ]
+  }
+ ]
+}

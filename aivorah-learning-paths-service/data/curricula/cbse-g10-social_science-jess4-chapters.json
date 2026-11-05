@@ -1,0 +1,59 @@
+{
+ "curriculum": "CBSE",
+ "grade": "Grade 10",
+ "subject": "Social Science",
+ "code": "jess4",
+ "imageSubject": "Social_Science",
+ "chapters": [
+  {
+   "chapter": 1,
+   "pdfFile": "jess401.pdf",
+   "title": "Power-Sharing",
+   "kind": "Non-fiction",
+   "bookPath": "grade10/social_science/jess401.pdf",
+   "pdfFiles": [
+    "jess401.pdf"
+   ]
+  },
+  {
+   "chapter": 2,
+   "pdfFile": "jess402.pdf",
+   "title": "Federalism",
+   "kind": "Non-fiction",
+   "bookPath": "grade10/social_science/jess402.pdf",
+   "pdfFiles": [
+    "jess402.pdf"
+   ]
+  },
+  {
+   "chapter": 3,
+   "pdfFile": "jess403.pdf",
+   "title": "Gender, Religion and Caste",
+   "kind": "Non-fiction",
+   "bookPath": "grade10/social_science/jess403.pdf",
+   "pdfFiles": [
+    "jess403.pdf"
+   ]
+  },
+  {
+   "chapter": 4,
+   "pdfFile": "jess404.pdf",
+   "title": "Democratic Politics",
+   "kind": "Non-fiction",
+   "bookPath": "grade10/social_science/jess404.pdf",
+   "pdfFiles": [
+    "jess404.pdf"
+   ]
+  },
+  {
+   "chapter": 5,
+   "pdfFile": "jess405.pdf",
+   "title": "Outcomes of Democracy",
+   "kind": "Non-fiction",
+   "bookPath": "grade10/social_science/jess405.pdf",
+   "pdfFiles": [
+    "jess405.pdf"
+   ]
+  }
+ ]
+}
